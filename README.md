@@ -2,6 +2,23 @@
 
 GKD 订阅模板, 此仓库方便您直接构建自己订阅, 点击右上角 [Use this template](https://github.com/new?template_name=subscription-template&template_owner=gkd-kit) 即可使用
 
+## 自用规则链接
+jsdelivr CDN 
+```fastly.jsdelivr.net
+https://fastly.jsdelivr.net/gh/qimlisky/gkd_subscription@main/dist/gkd.json5
+```
+cloudflare加速
+```gh-proxy.org
+https://gh-proxy.org/https://raw.githubusercontent.com/qimlisky/gkd_subscription/refs/heads/main/dist/gkd.json5
+```
+#### 其他规则
+[其他规则https://github.com/topics/gkd-subscription](https://github.com/topics/gkd-subscription)
+
+### 声明
+- 禁止在国内平台传播
+- 本仓库仅供本人学习使用
+- 别指望这个仓库，只是补充
+
 ## 配置环境
 
 请安装最新版 nodejs 和 pnpm 运行, 以及使用 vscode 打开项目
